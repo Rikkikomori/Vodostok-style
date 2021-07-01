@@ -1,0 +1,210 @@
+body {
+  margin: 0px;
+  width: 943px;
+}
+.body2 {
+  margin: 0px;
+  width: 943px;
+  background: url(https://clipart-db.ru/file_content/rastr/background_024.jpg)
+}
+.p1 { /* Выравнивание текста */
+  margin: 10px;
+  text-align: justify;
+}
+.grid { /* Общие настройки грида */
+  display: grid;
+  grid-template-columns: 250px 200px 200px;
+  grid-auto-rows: minmax(50px, auto);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.first { /* первый */
+  border: 2px solid black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background: white;
+}
+.second { /* второй */
+  border: 2px solid black;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background: white;
+}
+.third { /* третий */
+  border: 2px solid black;
+  background: white;
+}
+.fourth { /* четвертый */
+  border: 2px solid black;
+  background: white;
+}
+.fifth { /* пятый */
+  border: 2px solid black;
+  background: white;
+}
+.image { /* изображения в гридах */
+  margin: 10px;
+  width: 180px;
+  height: 180px
+}
+.block { /* внешний див шапки */
+  display: flex;
+ position: relative;
+}
+.outer1 {
+  margin: 0px;
+  padding: 0px;
+}
+.outer1 + .inner {
+  display: none;
+}
+.outer1:hover + .inner {
+  display: block;
+}
+.outer1 .inner {
+  display: none;
+}
+.outer1:hover .inner {
+  display: block;
+}
+.outer3 {
+  color: black;
+  border: 1px solid black;
+  background: lightgray;
+}
+.inner {
+  position: absolute;
+
+}
+.vkladka {
+  margin: 19px;
+  text-align: center;
+}
+.vkl {
+  padding-left: 13px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin: 5px;
+}
+#lis {
+  width: 116px;
+}
+#ss {
+  color: black;
+}
+.vkl:hover {
+  padding-left: 13px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin: 5px;
+  background: white;
+  color: black;
+}
+.list1 {
+  border: 1px solid black;
+  background: lightgray;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 116px
+}
+.list2 {
+  border: 1px solid black;
+  background: lightgray;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 116px
+}
+.list1:hover {
+  border: 1px solid black;
+  background: white;
+  color: black;
+}
+.list2:hover {
+  border: 1px solid black;
+  background: white;
+  color: black;
+}
+.stroka2 {
+  margin: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background: lightgray;
+  border: 1px solid black;
+}
+.stroka1 {
+  margin: 0px;
+  padding: 0px;
+}
+#inp {
+  width: 600px;
+  height: 24px;
+  font-size: 12pt;
+}
+.forimg {
+  height: 35px;
+}
+.forum1 {
+  margin: 0px;
+  padding: 0px;
+}
+.forum2 {
+  background: lightgray;
+  border: 1px solid black;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 13px;
+  padding-bottom: 5px;
+}
+.forum2:hover {
+  background: white;
+  border: 1px solid black;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 13px;
+  padding-bottom: 5px;
+}
+.body2 { /* внешний див тела */
+  display: flex;
+}
+.slide {
+
+}
+.naverh {
+  margin-right: 5px;
+  display: block;
+  cursor: pointer;
+  width: 120px;
+  border: none;
+
+}
+.naverh:hover {
+background: rgba(255, 255, 255, 0.5);
+}
+.top {
+  margin: 0px;
+  display: none;
+}
+.content {
+  width: 690px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.rightcontent {
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.rblock {
+  background: white;
+}
